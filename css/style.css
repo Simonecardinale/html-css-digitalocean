@@ -36,3 +36,11 @@
 }
 
 /* header */
+
+/* 3 sezione  */
+
+.third_section_container >* {
+    margin: 30px 0;
+}
+
+/* /3 sezione */
