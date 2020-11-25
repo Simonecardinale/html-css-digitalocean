@@ -1,0 +1,38 @@
+.container {
+    border: 2px solid red;
+}
+
+[class*="col-"] {
+    border: 1px solid black;
+    height: 100%;
+}
+
+/* da cancellare  */
+.ms_h100{
+    height: 100px;
+}
+
+.ms_h500 {
+    height: 500px;
+}
+
+.ms_h300 {
+    height: 300px;
+}
+
+/* /da cancellare */
+
+/* stili generali */
+
+
+/* /stili generali */
+
+
+
+/* header */
+
+.header_container {
+    margin: 50px 0;
+}
+
+/* header */
