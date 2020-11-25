@@ -60,3 +60,15 @@
 }
 
 /* /6 sezione */
+
+
+
+
+
+@media screen and (min-width:1200px) {
+
+    .lower_text {
+        margin: 0;
+    }
+
+}
