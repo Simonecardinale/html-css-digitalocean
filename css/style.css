@@ -44,3 +44,19 @@
 }
 
 /* /3 sezione */
+
+/* 5 sezione */
+
+.lower_text {
+    margin: 50px 0;
+}
+
+/* /5 sezione */
+
+/* 6 sezione */
+
+.sixth_section_container >* {
+    margin: 50px 0;
+}
+
+/* /6 sezione */
