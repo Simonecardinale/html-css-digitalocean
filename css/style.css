@@ -29,6 +29,15 @@ body {
 
 /* stili generali */
 
+.typo_h2 {
+    color: #031c4e;
+    font-weight: bold;
+}
+
+.typo_p {
+    font-weight: bold;
+    color: grey;
+}
 
 /* /stili generali */
 
@@ -143,12 +152,16 @@ header {
 
 /* 1sezione */
 
+#first_section_container {
+    background-color: #f3f5f9;
+}
+
 .first_section {
     margin-top: 50px;
     color: grey;
 }
 
-.first_section [class*="col-"] {
+.first_section [class*="col-"]:not(.final_link) {
    height: 90px;
    position: relative;
 }
@@ -172,14 +185,29 @@ header {
     width: 80%;
 } 
 
+.final_link {
+    font-weight: bold;
+}
+
 
 /* /1sezione */
 
+/* 2sezione */
+
+.selection {
+    border-left: 2px solid grey;
+    
+}
+
+.selection a {
+    color: grey;
+    line-height: 1.6;
+}
+
+/* /2sezione */
+
 /* 3 sezione 
 
-.third_section_container >* {
-    margin: 30px 0;
-}
 
 /* /3 sezione */
 
