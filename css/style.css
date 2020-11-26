@@ -3,11 +3,11 @@ body {
 }
 
 .container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 [class*="col-"] {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     height: 100%;
 }
 
@@ -91,11 +91,12 @@ header {
 }
 
 .header_container p {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .registration {
     background-color: white;
+    border-radius: 5px;
 }
 
 .registration h2:first-child {
@@ -108,18 +109,19 @@ header {
     font-weight: bold;
 }
 
-.registration p {
+.data_container {
     text-align: left;
     border: 1px solid lightgrey;
     padding: 5px 0;
     border-radius: 10px;
+    margin-top: 5px;
 }
 
 #account_creator p, #google_signup p {
     text-align: center;
 }
 
-.ms_account {
+.data_container:nth-child(4) {
     background-color: #579aff;
     color: white;
     border-radius: 10px;
@@ -134,16 +136,58 @@ header {
 }
 
 #google_signup i {
-font-size: 30px;
+font-size: 20px;
 padding: 5px 0;
 }
 
 
+.terms_data p {
+    font-size: 16px;
+}
+
+.terms_data p a {
+    text-decoration: underline;
+}
 
 
 /* header */
 
-/* 3 sezione  */
+
+/* 1sezione */
+
+.first_section {
+    margin-top: 50px;
+    color: grey;
+}
+
+.first_section [class*="col-"] {
+   height: 90px;
+   position: relative;
+}
+
+.first_section img {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sixty img {
+    width: 60%;
+}
+
+.seventy img {
+    width: 70%;
+}
+
+.eighty img {
+    width: 80%;
+} 
+
+
+/* /1sezione */
+
+/* 3 sezione 
 
 .third_section_container >* {
     margin: 30px 0;
