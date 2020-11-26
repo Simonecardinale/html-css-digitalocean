@@ -223,8 +223,12 @@ header {
 
 /* /2sezione */
 
-/* 3 sezione 
+/* 3 sezione */
 
+.third_section_container h4 {
+    color: grey;
+    font-weight: bold;
+}
 
 /* /3 sezione */
 
