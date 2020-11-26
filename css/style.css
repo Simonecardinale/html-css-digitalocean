@@ -1,3 +1,7 @@
+body {
+    text-align: center;
+}
+
 .container {
     border: 2px solid red;
 }
@@ -80,6 +84,44 @@ header {
 .header_container {
     margin: 50px 0;
 }
+
+.header_container h1, .header_container> .col-xs-12 > p {
+    color: white;
+    font-weight: bold;
+}
+
+.header_container p {
+    font-size: 20px;
+}
+
+.registration {
+    background-color: white;
+}
+
+.registration h2:first-child {
+    color: #031c4e;
+    font-weight: bold;
+}
+
+.registration h2:last-child {
+    color: #006aff;
+    font-weight: bold;
+}
+
+.registration p {
+    text-align: left;
+    border: 1px solid grey;
+    padding: 10px 0;
+}
+
+
+.ms_account {
+    background-color: #579aff;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
 
 /* header */
 
