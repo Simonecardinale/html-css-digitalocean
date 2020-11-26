@@ -196,12 +196,29 @@ header {
 
 .selection {
     border-left: 2px solid grey;
+    padding: 20px 0;
     
 }
 
 .selection a {
     color: grey;
     line-height: 1.6;
+}
+
+.deploy {
+    text-align: left;
+    padding: 20px 0;
+}
+
+
+.deploy h4 {
+    font-weight: bold;
+    color: #031c4e;
+}
+
+.deploy p {
+    font-weight: bold;
+    color: grey;
 }
 
 /* /2sezione */
