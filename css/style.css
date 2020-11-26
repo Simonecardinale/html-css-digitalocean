@@ -7,7 +7,7 @@ body {
 }
 
 [class*="col-"] {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%;
 }
 
@@ -110,17 +110,35 @@ header {
 
 .registration p {
     text-align: left;
-    border: 1px solid grey;
-    padding: 10px 0;
+    border: 1px solid lightgrey;
+    padding: 5px 0;
+    border-radius: 10px;
 }
 
+#account_creator p, #google_signup p {
+    text-align: center;
+}
 
 .ms_account {
     background-color: #579aff;
     color: white;
     border-radius: 10px;
     text-align: center;
+    border-color: 579aff;
 }
+
+
+.signup_container {
+    padding: 5px 0;
+    border-radius: 10px;
+}
+
+#google_signup i {
+font-size: 30px;
+padding: 5px 0;
+}
+
+
 
 
 /* header */
