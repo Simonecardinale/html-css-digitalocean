@@ -27,6 +27,28 @@
 
 /* /stili generali */
 
+/* nav bar */
+
+
+.logo_container > img {
+    width: 200px;
+}
+
+.nav_container {
+    height: 50px;
+}
+
+.menu_hamburger, .lg_menu_hamburger {
+    text-align: right;
+}
+
+.menu_hamburger i, .lg_menu_hamburger i {
+    font-size: 30px;
+    color: #3a8aff;
+}
+
+/* /nav bar */
+
 
 
 /* header */
@@ -69,6 +91,10 @@
 
     .lower_text {
         margin: 0;
+    }
+
+    .menu_hamburger i {
+        display: none;
     }
 
 }
