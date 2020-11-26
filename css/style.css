@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    padding-top: 50px;
 }
 
 .container {
@@ -34,10 +35,11 @@ body {
 /* nav bar */
 
 nav {
-    line-height: 50px;
+    line-height: 100px;
+    background-color: white;
 }
 
-.logo_container > img {
+    .logo_container > img {
     width: 200px;
 }
 
@@ -109,7 +111,26 @@ header {
     font-weight: bold;
 }
 
-.data_container {
+#blue_button, #google_button {
+    width: 100%;
+    background-color: #579aff;
+    color: white;
+    font-weight: bold;
+
+}
+
+#google_button {
+    background-color: white;
+    color: grey;
+}
+
+#google_button:before {
+    content: "\f1a0";
+    font-family: "Font Awesome 5 Free";
+
+}
+
+/* .data_container {
     text-align: left;
     border: 1px solid lightgrey;
     padding: 5px 0;
@@ -147,7 +168,7 @@ padding: 5px 0;
 
 .terms_data p a {
     text-decoration: underline;
-}
+} */
 
 
 /* header */
