@@ -307,19 +307,83 @@ header {
 
 .region_container .col-xs-3 a {
     color: #00d7d2;
+    font-size: 12px;
+}
+.region_container .col-xs-3 i {
+    margin-left: 5px;
 }
 
 /* /5 sezione */
 
 /* 6 sezione */
 
+#sixth_section {
+    background-color: #f3f5f9;
+}
+
 .sixth_section_container >* {
     margin: 50px 0;
 }
 
+.rockerbox_container {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.rockerbox_container img {
+    width: 80%;
+}
+
+.rockerbox_container p {
+    color: #031c4e;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.rockerbox_container p:nth-child(4){
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.rockerbox_container i {
+    margin-left: 10px;
+}
+
+.arrow_container::before {
+    content: "\f104";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 40px;
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: #6f7b97;
+} 
+
+.arrow_container::after {
+    content: "\f105";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 40px;
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: #031c4e;
+}
+
+
+
+
 /* /6 sezione */
 
 
+@media screen and (max-width:991px) {
+    .arrow_container::before, .arrow_container::after {
+        display: none;
+    }
+}
 
 
 
@@ -328,6 +392,7 @@ header {
     .lower_text {
         margin: 0;
     }
+
 
     .menu_hamburger i:first-child {
         display: none;
