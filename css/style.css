@@ -373,10 +373,36 @@ header {
     color: #031c4e;
 }
 
-
-
-
 /* /6 sezione */
+
+
+/* 7 sezione */
+
+#seventh_section {
+    background-color: #0039b3;
+}
+
+.get_started_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.get_started_container h2 {
+    color: white;
+    font-weight: bold;
+}
+
+.get_started_container a {
+    color: #006aff;
+    background-color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* /7 sezione */
 
 
 @media screen and (max-width:991px) {
