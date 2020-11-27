@@ -3,16 +3,16 @@ body {
     padding-top: 50px;
 }
 
-.container {
-    /* border: 2px solid red; */
-}
 
 [class*="col-"] {
     /* border: 1px solid black; */
     height: 100%;
 }
 
-/* da cancellare  */
+
+/* stili generali */
+
+
 .ms_h100{
     height: 100px;
 }
@@ -24,10 +24,6 @@ body {
 .ms_h300 {
     height: 300px;
 }
-
-/* /da cancellare */
-
-/* stili generali */
 
 .typo_h2 {
     color: #031c4e;
@@ -60,9 +56,6 @@ nav {
     width: 200px;
 }
 
-.nav_container {
-    /* height: 50px; */
-}
 
 .menu_hamburger, .lg_menu_hamburger {
     text-align: right;
@@ -204,7 +197,7 @@ header {
 
 .selection {
     border-left: 2px solid grey;
-    padding: 20px 0;
+    margin-top: 100px;
     
 }
 
@@ -509,6 +502,14 @@ footer {
 
     .menu_hamburger i:first-child {
         display: none;
+    }
+
+    .menu_hamburger .menu_item i {
+        display: inline;
+        color:#031c4e ;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 3px;
     }
 
     .menu_hamburger .menu_item li a {
