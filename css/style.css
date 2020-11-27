@@ -43,6 +43,10 @@ body {
     color: #031c4e;
 }
 
+.white {
+    color: white;
+}
+
 /* /stili generali */
 
 /* nav bar */
@@ -281,8 +285,28 @@ header {
 
 /* 5 sezione */
 
+#fifth_section {
+    background-color: #0046c4;
+    padding: 50px;
+}
+
+
 .lower_text {
     margin: 50px 0;
+}
+
+.data_region {
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+}
+
+.region_container .col-xs-2 p:first-child {
+    color: white;
+    font-weight: bold;
+}
+
+.region_container .col-xs-3 a {
+    color: #00d7d2;
 }
 
 /* /5 sezione */
