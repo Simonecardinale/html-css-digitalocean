@@ -405,6 +405,45 @@ header {
 /* /7 sezione */
 
 
+/* footer */
+
+footer {
+    background-color: #031c4e;
+}
+
+.copyright_container {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.copyright_container .typo_p:nth-child(2) {
+    margin-bottom: 0;
+}
+
+.copyright_container .typo_p:nth-child(3) {
+    color: #5a6887;
+}
+
+.copyright_container i {
+    font-size: 20px;
+    padding: 5px;
+    color: #7a859d;
+}
+
+.copyright_container_row h3 {
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+.copyright_container_row p {
+    font-size: 18px;
+    text-align: left;
+}
+
+/* /footer */
+
+
 @media screen and (max-width:991px) {
     .arrow_container::before, .arrow_container::after {
         display: none;
