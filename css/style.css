@@ -444,6 +444,54 @@ footer {
 /* /footer */
 
 
+/* chat icon */
+
+.chat_icon_container {
+    height: 70px;
+    width: 70px;
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/28/09/22/shark-2688870_960_720.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 9999;
+    left: 80%;
+    top: 80%;
+}
+
+.chat_icon_container::before{
+    content: "2";
+    height: 25px;
+    width: 25px;
+    display: block;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid red;
+    position: absolute;
+    top: -12px;
+    right: -8px;
+}
+
+.chat_icon_container:after {
+    content: '\f27a';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 120px;
+    position: absolute;
+    left: -100px;
+    top: -150px;
+    transform: scaleX(-1);
+    color: white;
+    display: none;
+    color: khaki;
+}
+
+.chat_icon_container:hover:after{
+    display: block;
+}
+/* /chat icon */
+
+
 @media screen and (max-width:991px) {
     .arrow_container::before, .arrow_container::after {
         display: none;
